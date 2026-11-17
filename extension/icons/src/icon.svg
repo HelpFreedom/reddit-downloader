@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <circle cx="256" cy="256" r="248" fill="#FF4500"/>
+  <!-- антенна -->
+  <path d="M262 168 L282 92 L346 106" fill="none" stroke="#fff" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="360" cy="110" r="30" fill="#fff"/>
+  <!-- уши -->
+  <circle cx="128" cy="236" r="38" fill="#fff"/>
+  <circle cx="384" cy="236" r="38" fill="#fff"/>
+  <!-- голова -->
+  <ellipse cx="256" cy="290" rx="150" ry="108" fill="#fff"/>
+  <!-- глаза -->
+  <circle cx="200" cy="276" r="25" fill="#FF4500"/>
+  <circle cx="312" cy="276" r="25" fill="#FF4500"/>
+  <!-- улыбка -->
+  <path d="M196 336 Q256 374 316 336" fill="none" stroke="#FF4500" stroke-width="14" stroke-linecap="round"/>
+  <!-- значок скачивания -->
+  <circle cx="404" cy="404" r="92" fill="#fff"/>
+  <circle cx="404" cy="404" r="76" fill="#0079D3"/>
+  <path d="M404 358 L404 432 M372 404 L404 438 L436 404" fill="none" stroke="#fff" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Reddit Downloader",
+  "version": "1.0.0",
+  "description": "Скачивает видео и gif (сразу в mp4) из открытого поста Reddit в папку загрузок.",
+  "homepage_url": "https://github.com/HelpFreedom/reddit-downloader",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo4ubDKYNtqtNfMayr8733vvTJAbc93rUljId06Z/hCiD54e1oZkJ+4BLWxMDB+OqXIOXVGZSX4kbNRs4NwIvTj8SQVAJ8FiuhOKkmh9TyYVHFAhf1xzMXKF9xfkCDDUcW3wkVIMRbCWCy+hKRkCid8wxADh0SxQcetLZDx/RjWbxLDUNBldh9IWX1Wcz6DNw4wuNCnZhn5EGILdBLjCIRinLvGxAWyT9BFw/KrC5bzV3DOzBoCYl/T/W6xK4lAcxiA7Eo5TR34Zov3CVKpq9FTtiiNixfx23PWalSOE5u0obqePnCuYAmIeIPRwjk/+qaW9m5nhhF6h3Pla5QA0VHwIDAQAB",
+  "minimum_chrome_version": "116",
+  "permissions": [
+    "scripting",
+    "nativeMessaging",
+    "notifications"
+  ],
+  "host_permissions": [
+    "https://*.reddit.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Скачать видео / gif из поста",
+    "default_icon": {
+      "16": "icons/16.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "128": "icons/128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/16.png",
+    "32": "icons/32.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  }
+}
